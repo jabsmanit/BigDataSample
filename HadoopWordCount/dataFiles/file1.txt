@@ -1,0 +1,6 @@
+Hello Hadoop world program.
+It counts the occurences of each world.
+This is a random text one two three.
+So, is this line. World is random.
+Random is world.
+So more weird texts.
