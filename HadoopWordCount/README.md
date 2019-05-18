@@ -28,7 +28,7 @@ Steps for executing Hadoop streaming program:
     # hdfs dfs -put file2.txt /HadoopWordCount/input
 4) Copy python files from BigDataSample/HadoopWordCount/python/ to /home/hadoop
 5) Execute the mapreduce job
-    # hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-2.9.2.jar \
+     hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-2.9.2.jar \
        -file /home/hadoop/mapper.py    -mapper /home/hadoop/mapper.py \
        -file /home/hadoop/reducer.py   -reducer /home/hadoop/reducer.py \
        -input /HadoopWordCount/input/* -output /HadoopWordCount/output
